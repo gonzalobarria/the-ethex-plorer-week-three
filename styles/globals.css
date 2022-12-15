@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  color: #1d6fa5;
+}
+/* 
 html,
 body {
   padding: 0;
@@ -20,7 +32,8 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: rgb(212, 208, 202);
+    background: rgb(24, 26, 27);
   }
 }
+ */
